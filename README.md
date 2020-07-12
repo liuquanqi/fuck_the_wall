@@ -30,7 +30,7 @@ wget https://gist.githubusercontent.com/grasses/b1837aab1ce2149148d49dd458b483d1
 chmod +x XSSR.sh && ./XSSR.sh
 ```
 
-> ##### * 部署serverspeeder
+> #### * 部署serverspeeder
 ```bash
 wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ```
