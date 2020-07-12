@@ -2,6 +2,18 @@
 
 ## 1. SS
 
+### 1.1 centos 7 x64 
+
+> #### * 部署SS
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh && chmod +x shadowsocks-libev.sh && ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+```
+> #### * 卸载SS
+```bash
+./shadowsocks-libev.sh uninstall
+```
+** 部署完后可安装serverspeeder提速**
+
 ****
 
 ## 2. SSR
@@ -24,10 +36,7 @@ uname -r
 
 > #### * 部署SSR
 ```bash
-wget https://gist.githubusercontent.com/grasses/b1837aab1ce2149148d49dd458b483d1/raw/f9ebfc3a02fad9a00df9ab84c6d00369a0f7c778/XSSR.sh
-```
-```bash
-chmod +x XSSR.sh && ./XSSR.sh
+wget https://gist.githubusercontent.com/grasses/b1837aab1ce2149148d49dd458b483d1/raw/f9ebfc3a02fad9a00df9ab84c6d00369a0f7c778/XSSR.sh && chmod +x XSSR.sh && ./XSSR.sh
 ```
 
 > #### * 部署serverspeeder
@@ -55,7 +64,7 @@ uname -r
 ```
 
 > #### * 配置 ifconfig  
-```c++
+```bash
 yum install net-tools
 ```
 
@@ -68,5 +77,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```bash
 wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ```
+
+
+
 
 
