@@ -12,7 +12,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsoc
 ```bash
 ./shadowsocks-libev.sh uninstall
 ```
-** 部署完后可安装serverspeeder提速**
+> #### * 部署完成后可安装serverspeeder提速，方法见下文
 
 ****
 
