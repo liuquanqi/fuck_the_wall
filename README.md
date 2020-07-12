@@ -32,7 +32,7 @@ uname -r
 > ###### * 部署serverspeeder
 ```bash
 wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
-          ```
+```
 
 ### 2.2 centos 7 x64  
 
