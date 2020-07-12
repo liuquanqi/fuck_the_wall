@@ -78,7 +78,47 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ```
 
+****
 
+## 3. V2ray
 
+### 3.1 centos 7 x64 
 
+> #### * 更换内核并部署serverspeeder方法同上
 
+> #### * 配置 ifconfig  
+```bash
+yum install net-tools
+```
+> #### * 安装wget zip unzip
+```bash
+yum -y install wget zip unzip
+```
+> #### * 下载脚本
+```bash
+wget https://install.direct/go.sh
+```
+> #### * 安装V2ray
+```bash
+bash go.sh
+```
+> #### * 设置开机自启动
+```bash
+systemctl enable v2ray
+```
+> #### * 开启服务
+```bash
+systemctl start v2ray
+```
+> #### * 查看配置文件
+```bash
+cat /etc/v2ray/config.json
+```
+> #### * 查看防火墙状态
+```bash
+systemctl status firewalld
+```
+> #### * 永久关闭防火墙
+```bash
+systemctl disable firewalld
+```
